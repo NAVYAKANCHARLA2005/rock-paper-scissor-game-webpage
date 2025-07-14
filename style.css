@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+h1 {
+  color: #333;
+}
+
+.choices button {
+  font-size: 20px;
+  margin: 10px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2196F3;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.choices button:hover {
+  background-color: #1976D2;
+}
+
+.result {
+  margin-top: 30px;
+}
+
+.result p, .result h2 {
+  font-size: 20px;
+  margin: 10px;
+}
